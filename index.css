@@ -1,0 +1,48 @@
+h1 {
+  text-align: center;
+}
+
+.conteudo {
+  width: 80%;
+  background: blue;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  display: table;
+}
+
+.esquerda {
+  background: red;
+  padding: 10px;
+  width: 30%;
+  float: left;
+}
+
+.direita {
+  background: purple;
+  padding: 10px;
+  width: 59%;
+  float: left;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .menu-mobile {
+    display: block;
+    background: navy;
+    padding: 10px;
+    width: 94%;
+    float: left;
+  }
+
+  .esquerda {
+    display: none;
+  }
+
+  .direita {
+    width: 94%;
+  }
+}
